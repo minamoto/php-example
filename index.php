@@ -1,3 +1,4 @@
 <?php 
   echo "<h1>Hello, world!</h1>"; 
-  echo $_SERVER["REMOTE_ADDR"] ;?>
+  echo gethostname() . "\n"
+  echo $_SERVER['SERVER_ADDR']; ;?>
